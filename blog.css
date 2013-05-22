@@ -1,0 +1,23 @@
+#title{font-size: x-large;}
+a.ablack{color:black !important;}
+li{margin-bottom:8px;}
+ul,ol{margin-left:24px;margin-right:24px;}
+#post_footer{margin-top:24px;text-align:center;}
+.continue{margin:0px 12px;text-align:right;}
+.subtitle{font-size:small;margin:12px 0px;color:#999;position:relative;top:-10px;}
+.content p{margin-left:24px;margin-right:24px;}
+h1{margin-bottom:12px !important;}
+#description{font-size:large;margin-bottom:12px;}
+h3{margin-top:42px;margin-bottom:8px;}
+h4{margin-left:24px;margin-right:24px;}
+#twitter{line-height:20px;vertical-align:top;text-align:right;font-style:italic;color:#333;margin-top:24px;font-size:14px;}
+
+.content{color:#373737; font: 16px Helvetica, arial, freesans, clean, sans-serif;}
+.content p{line-height:22px;}
+.content h1{font-size:28px;font-weight: bold;}
+.content a{color:#0086B3;}
+.content a:hover{text-decoration:underline !important}
+.content code{overflow: auto;padding:2px 5px;background-color:#f8f8f8; border:1px solid #ccc;font-family: Consolas, "Liberation Mono", Courier, monospace;}
+.content pre code{display:block;}
+.content ul{list-style-type: disc;}
+.content img{width: 400px;padding: 1px;border: 1px solid #4D4D4D;}
