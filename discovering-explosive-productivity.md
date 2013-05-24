@@ -2,6 +2,7 @@ Discovering explosive productivity
 
 August 10 2012,  5:26 PM
 <p>This friday is now my third week at the <a href="http://kicstart.ca/" target="_blank">Kamloops Innovation Centre</a>, and these last five days I have taken the time to reflect on how much more productive I have been since I've had the opportunity to set up here. Actually, not only productive, but how much more&nbsp;<em>efficient.</em></p>
+<!-- Content Breaker -->
 <p style="text-align: center;"><img src="http://www.govirtualoffice.com/wp-content/uploads/2010/08/graph_image.jpg" height="200px" alt="" style="display: block; margin-left: auto; margin-right: auto;" width="200px" /></p>
 <p style="text-align: center;"><span style="text-align: center;">Something like this.</span></p>
 <p>It turns out that when you stick a bunch of startup leaders and super-coders into one building, they all become very efficient at being, well, efficient.&nbsp;Cool tools take no time to spread around the whole office. Everyone always wants to share the latest method they found at working faster, better, and with more <em>style.</em>&nbsp;I have seen some seriously awesome tools in the last few weeks. Some of these I was already aware of, but I had <em>no idea</em> that they could be so powerful.</p>
