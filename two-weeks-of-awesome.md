@@ -1,6 +1,5 @@
 Two weeks of awesome.
 
-August  3 2012, 12:35 PM
 <p>Hello!</p>
 <p>I'm <a href="https://twitter.com/chrisfosterelli" target="_blank">Chris Foster</a>. I have a passion for code and technology, and in the coming fall I will be&nbsp;pursuing&nbsp;that passion professionally at <a href="http://www.tru.ca/" target="_blank">Thompson Rivers University</a>. In the mean time, I've been doing contract web application development to entertain myself.</p>
 <!-- Content Breaker -->
