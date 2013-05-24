@@ -53,14 +53,14 @@ global_variables() {
     global_software_url="https://github.com/bijanebrahimi/bashblogjunior"
 
     # Blog information
-    global_title="Blog Title"
-    global_description="Blog Description"
-    global_url="http://example.com/"
+    global_title="Digital Misinformation"
+    global_description="A blog about tech things"
+    global_url="http://fosterelli.co/"
 
     # Author information
-    global_author="Blog Author"
-    global_author_url="http://example.com/authur" 
-    global_email="author@example.com"
+    global_author="Chris Foster"
+    global_author_url="http://twitter.com/chrisfosterelli"
+    global_email="chris.james.foster@gmail.com"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
     global_license="CC by-nc-nd"
