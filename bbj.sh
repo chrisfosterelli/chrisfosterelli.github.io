@@ -63,7 +63,7 @@ global_variables() {
     global_url="http://fosterelli.co/"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
-    global_license="CC by-nc-nd"
+    global_license="&copy;"
 
     # If you have a Google Analytics ID (UA-XXXXX), put it here.
     # If left empty (i.e. "") Analytics will be disabled
