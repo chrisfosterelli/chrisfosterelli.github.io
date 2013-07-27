@@ -52,15 +52,15 @@ global_variables() {
     global_software_version="0.1.0"
     global_software_url="https://github.com/bijanebrahimi/bashblogjunior"
 
-    # Blog information
-    global_title="Digital Misinformation"
-    global_description="A blog about tech things"
-    global_url="http://fosterelli.co/"
-
     # Author information
     global_author="Chris Foster"
     global_author_url="http://twitter.com/chrisfosterelli"
     global_email="chris.james.foster@gmail.com"
+
+    # Blog information
+    global_title="Digital Misinformation"
+    global_description="<a href=\"http://fosterelli.co\">Blog</a> - <a href=\"http://twitter.com/chrisfosterelli\">Twitter</a> - <a href=\"mailto:chris.james.foster@gmail.com\">Email</a>"
+    global_url="http://fosterelli.co/"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
     global_license="CC by-nc-nd"
