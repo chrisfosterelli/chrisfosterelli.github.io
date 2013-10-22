@@ -67,10 +67,10 @@ global_variables() {
 
     # If you have a Google Analytics ID (UA-XXXXX), put it here.
     # If left empty (i.e. "") Analytics will be disabled
-    global_analytics=""
+    global_analytics="UA-43290727-1"
 	
-	# DISQUS
-	global_disqus_shortname=''
+    # DISQUS
+    global_disqus_shortname=''
 	
     # Leave this empty (i.e. "") if you don't want to use feedburner, 
     # or change it to your own URL
