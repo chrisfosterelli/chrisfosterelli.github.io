@@ -219,18 +219,18 @@ Be sure to reboot if necessary. If you do reboot, you will be disconnected from 
     script
         export PORT=4000
         export DB_URI="[Your MongoDB URI]"
-        export GITHUB_APP_ID="[Your Github Client ID]"
-        export GITHUB_APP_SECRET="[Your Github Client Secret]"
         export SMTP_HOST="[Your SMTP Host]"
         export SMTP_PORT="[Your SMTP Port]"
         export SMTP_USER="[Your SMTP User]"
         export SMTP_PASS="[Your SMTP Pass]"
         export SERVER_NAME="http://198.199.107.142:4000"
         export STRIDER_CLONE_DEST="/home/strider/builds/"
+        export PLUGIN_GITHUB_APP_ID="[Your Github Client ID]"
+        export PLUGIN_GITHUB_APP_SECRET="[Your Github Client Secret]"
         echo $$ > /var/run/strider.pid
         exec sudo -u strider \
-         DB_URI=$DB_URI SERVER_NAME=$SERVER_NAME GITHUB_APP_ID=$GITHUB_APP_ID \
-         GITHUB_APP_SECRET=$GITHUB_APP_SECRET SMTP_HOST=$SMTP_HOST SMTP_PORT=$SMTP_PORT \
+         DB_URI=$DB_URI SERVER_NAME=$SERVER_NAME PLUGIN_GITHUB_APP_ID=$PLUGIN_GITHUB_APP_ID \
+         PLUGIN_GITHUB_APP_SECRET=$PLUGIN_GITHUB_APP_SECRET SMTP_HOST=$SMTP_HOST SMTP_PORT=$SMTP_PORT \
          SMTP_USER=$SMTP_USER SMTP_PASS=$SMTP_PASS PORT=$PORT STRIDER_CLONE_DEST=$STRIDER_CLONE_DEST \
          strider >> /var/log/strider.log 2>&1
     end script
@@ -318,3 +318,4 @@ As Strider is under heavy development, new features and bug fixes will likely be
 
 And with that, you should be all set! Strider is an exciting new CI/CD that looks like it has a promising future. If you have any issues or questions with the setup, send me an email at [chris.james.foster@gmail.com](mailto:chris.james.foster@gmail.com).
 
+__Updated January 18th, 2014:__ Updated for Strider version 1.4.3
