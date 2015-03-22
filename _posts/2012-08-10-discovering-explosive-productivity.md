@@ -1,5 +1,8 @@
-Discovering explosive productivity
-
+---
+layout: post
+permalink: discovering-explosive-productivity.html
+title: Discovering explosive productivity
+---
 <p>This friday is now my third week at the <a href="http://kicstart.ca/" target="_blank">Kamloops Innovation Centre</a>, and these last five days I have taken the time to reflect on how much more productive I have been since I've had the opportunity to set up here. Actually, not only productive, but how much more&nbsp;<em>efficient.</em></p>
 <!-- Content Breaker -->
 <p style="text-align: center;"><img src="http://www.govirtualoffice.com/wp-content/uploads/2010/08/graph_image.jpg" height="200px" alt="" style="display: block; margin-left: auto; margin-right: auto;" width="200px" /></p>

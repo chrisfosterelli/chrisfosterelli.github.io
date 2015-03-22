@@ -1,5 +1,8 @@
-Getting Started with WebRTC Data Channels
-
+---
+layout: post
+permalink: getting-started-with-webrtc-data-channels.html
+title: Getting Started with WebRTC Data Channels
+---
 [WebRTC](http://www.webrtc.org/home) data channels are in a strange state where many people are excited about them, but are not sure how to approach them due to their currently volatile nature. The standard has been rapidly changing, leaving many of the examples and resources regarding WebRTC outdated or incomplete. Unfortunately, a developer looking to get started with WebRTC data channels can be having a pretty bad time right now.
 
 Data channels have especially been shadowed by the audio and video capabilities of WebRTC. Many documentation pages and tutorials feature incomplete examples, with the full demos being too complex to easily follow and understand. This article will approach WebRTC from the data channel only view.

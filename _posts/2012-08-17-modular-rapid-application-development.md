@@ -1,5 +1,8 @@
-Modular rapid web application development
-
+---
+layout: post
+permalink: modular-rapid-web-application-development.html
+title: Modular rapid web application development
+---
 <p>While at the KIC, I've been doing contract web development work. The project that I've been developing for has a launch goal of the start of the school year, meaning this up coming September. We are hoping to have a functional, operational verison to display by that time. I hope I can convoy the general size of this project when I say that this is a <em>very </em>signifigant undertaking.</p>
 <!-- Content Breaker -->
 <p>Instead of the traditional development model, we've sort of adapted to a system that is much more simple. All the developers should have a sturdy idea of what the final project will look like. Each person should have a proper feeling of what the project is actually supposed to do. Nothing more is&nbsp;required. The entire process is cumulated as followed:</p>

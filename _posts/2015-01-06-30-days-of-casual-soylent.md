@@ -1,5 +1,8 @@
-30 Days of Casual Soylent
-
+---
+layout: post
+permalink: 30-days-of-casual-soylent.html
+title: 30 Days of Casual Soylent
+---
 During the month of September 2014 I experimented with a DIY version of soylent. I know that many people have started using the food substitute as a [sole source of nutrition](http://www.raptitude.com/2014/08/what-happened-during-my-30-days-on-a-liquid-superfood/), but I wanted to focus on using soylent in a more _casual_ manner. Specifically, as a student food on campus is often expensive and homemade lunches are often difficult to carry around, not nutritious, or require reheating. Soylent is none of those things, so for a student I was suspecting it might make an ideal lunch substitute.
 
 <!-- Content Breaker -->
@@ -16,7 +19,7 @@ Over the 30 days I experimented with soylent, specifically a DIY version called 
 > Later on in the day I started mixing the ingredients. I crushed the vitamin K+D pills and the mens' multivitamin between two spoons and mixed it in with the rest of the dry ingredients. After tossing those in a bowl I mixed in the honey and canola oil, and gave it a quick mix in with a spoon. Eight cups of water is too much for me to mix in one six cup blender, but it fit nicely between two batches. I think, in total, I created about 2.3L of liquid.
 >
 > I tried it and quickly realized that I had made a mistake. It tasted like uncooked oatmeal or, possibly, something like cream of wheat. I'm pretty sure I accidentally bought unflavored whey protein isolate, instead of the vanilla ice cream flavouring. The flavor isn't _bad_, but very, very bland. A friend compared the smell to baby food. I stored it in two tupperware containers and put it in the fridge. Taste is supposed to improve after eight hours in fridge, so I'll have to see!
-
+>
 > Day 1
 > -----
 >
@@ -246,4 +249,4 @@ It's now January and I've been regularly consuming my DIY soylent for four month
 
 I'll admit the journey to getting a usable version required me to go through numerous iterations of pretty terrible soylent, but I think it was worth it. I've never had the opportunity to try actual Soylent, as they don't yet ship to Canada, but I'll order as soon as I can for comparison. My only complaint about this DIY version is there is that it _must_ be premixed the night before. Even knowing that, I think this will be something I'll continue with long into the future.
 
-Have comments or questions on this stuff? [Email me](emailto:chris.james.foster@gmail.com).
+Have comments or questions on this stuff? [Email me](mailto:chris.james.foster@gmail.com).

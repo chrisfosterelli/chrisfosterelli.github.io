@@ -1,5 +1,8 @@
-Two weeks of awesome.
-
+---
+layout: post
+permalink: two-weeks-of-awesome.html
+title: Two weeks of awesome.
+---
 <p>Hello!</p>
 <p>I'm <a href="https://twitter.com/chrisfosterelli" target="_blank">Chris Foster</a>. I have a passion for code and technology, and in the coming fall I will be&nbsp;pursuing&nbsp;that passion professionally at <a href="http://www.tru.ca/" target="_blank">Thompson Rivers University</a>. In the mean time, I've been doing contract web application development to entertain myself.</p>
 <!-- Content Breaker -->

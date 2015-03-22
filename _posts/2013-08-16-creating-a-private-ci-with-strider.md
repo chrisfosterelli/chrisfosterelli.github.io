@@ -1,5 +1,8 @@
-Creating a private CI with Strider
-
+---
+layout: post
+permalink: creating-a-private-ci-with-strider.html
+title: Creating a private CI with Strider
+---
   Continuous integration and deployment servers are vital to the development process. Especially for web applications, being able to immediately test your branches and automatically deploy them is invaluable. [Strider](http://stridercd.com) is a new open-souce continuous deployment suite written in [nodejs](http://nodejs.org). While it is quite new and not without quirks, it features web hooks, email alerts, full [Github](http://github.com) integration, account management, [Heroku](http://heroku.com) deployment, and [Sauce Labs](http://saucelabs.com) integration.
 
   This article is a quick tutorial on how to set up your own in-house installation of Strider on a [Digital Ocean](http://digitalocean.com) VPS as low as $5/month.
