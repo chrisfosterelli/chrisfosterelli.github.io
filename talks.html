@@ -1,0 +1,15 @@
+---
+layout: default
+title: All talks
+---
+<h3>All talks</h3>
+<ul>
+  {% for talk in site.data.talks %}
+    <li>
+      <a href="{{ talk.url }}">{{ talk.title }}</a> &mdash; {{talk.date | date: "%B %d, %Y"}}
+    </li>
+  {% endfor %}
+</ul>
+<div id="post_footer">
+  <a href="/">Back to the index page</a>
+</div>

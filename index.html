@@ -1,12 +1,14 @@
 ---
 layout: default
-title: All posts
+title: Home
 ---
 {% for post in site.posts %}
 <h3>
   <a class="ablack" href="{{post.url}}">{{post.title}}</a>
 </h3>
-<div class="subtitle">{{post.date | date:"%B %d, %Y"}} &mdash; Chris Foster</div>
+<div class="subtitle">
+  {{post.date | date:"%B %d, %Y"}} &mdash; Chris Foster
+</div>
 {{post.excerpt}}
 <div class="continue">
   <a href="{{post.url}}">Continue Reading ...</a>
