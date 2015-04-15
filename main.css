@@ -109,7 +109,9 @@ pre {
 }
 
 .content p code {
-  padding: 0px;
+  padding: 1px 4px;
+  padding-bottom: 0px;
+  font-size: 15px;
 }
 
 a.ablack{color:black !important;}
@@ -130,7 +132,7 @@ h4{margin-left:24px;margin-right:24px;}
 .content h1{font-size:28px;font-weight: bold;}
 .content a{color:#0086B3;}
 .content a:hover{text-decoration:underline !important}
-.content code{margin: 0;overflow: auto;padding:2px 5px;background-color:#f8f8f8; border:1px solid #ccc;font-family: Consolas, "Liberation Mono", Courier, monospace;}
-.content pre code{margin: 0 20px; display:block;}
+.content code{margin: 0;overflow: auto;padding:2px 5px;background-color:#f8f8f8; font-family: Consolas, "Liberation Mono", Courier, monospace;}
+.content pre code{padding: 10px 5px; display:block;}
 .content ul{list-style-type: disc;}
 .content img{width: 400px;padding: 1px;border: 1px solid #4D4D4D;}
