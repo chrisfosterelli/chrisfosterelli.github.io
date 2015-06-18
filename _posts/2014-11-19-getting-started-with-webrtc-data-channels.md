@@ -7,7 +7,7 @@ title: Getting Started with WebRTC Data Channels
 
 Data channels have especially been shadowed by the audio and video capabilities of WebRTC. Many documentation pages and tutorials feature incomplete examples, with the full demos being too complex to easily follow and understand. This article will approach WebRTC from the data channel only view.
 
-So, in the spirit of supporting development, here is a complete example of _working WebRTC data channels with the latest Google Chrome_ (demo below).
+So, in the spirit of supporting development, here is a complete example of _working WebRTC data channels with the latest Google Chrome, version 43_ (demo below).
 
 <!-- Content Breaker -->
 
@@ -77,7 +77,7 @@ var handleOfferSignal = function(message) {
   peerConnection.createAnswer(function(sessionDescription) {
     console.log('Sending answer to ' + message.sender);
     peerConnection.setLocalDescription(sessionDescription);
-    sendSignalChannelMessage(sessionDescription);
+    sendSignalChannelMessage(sessionDescription.toJSON());
   });
 };
 
@@ -130,6 +130,7 @@ var handleICEConnectionStateChange = function() {
 var handleICECandidate = function(event) {
   var candidate = event.candidate;
   if (candidate) {
+    candidate = candidate.toJSON();
     candidate.type = 'candidate';
     console.log('Sending candidate to ' + remote);
     sendSignalChannelMessage(candidate);
@@ -157,7 +158,7 @@ var handleDataChannel = function(event) {
 // You probably want to overwrite this to do something more useful!
 var handleDataChannelMessage = function(event) {
   console.log('Recieved Message: ' + event.data);
-  document.write(event.data);
+  document.write(event.data + '<br />');
 };
 
 // This is called when the WebRTC sending data channel is offically 'open'
@@ -178,7 +179,7 @@ var connect = function() {
   peerConnection.createOffer(function(sessionDescription) {
     console.log('Sending offer to ' + remote);
     peerConnection.setLocalDescription(sessionDescription);
-    sendSignalChannelMessage(sessionDescription);
+    sendSignalChannelMessage(sessionDescription.toJSON());
   });
 };
 
@@ -262,3 +263,5 @@ Data channels are awesome, and exceptionally easy to use once you have managed t
 Got a question? [Email me](mailto:chris.james.foster@gmail.com).
 
 __Updated April 5, 2015:__ Added syntax highlighting
+
+__Updated June 17, 2015:__ Now works with Chrome 43, thanks to Dave Compton

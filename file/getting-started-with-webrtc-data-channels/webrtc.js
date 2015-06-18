@@ -62,7 +62,7 @@ var handleOfferSignal = function(message) {
   peerConnection.createAnswer(function(sessionDescription) {
     console.log('Sending answer to ' + message.sender);
     peerConnection.setLocalDescription(sessionDescription);
-    sendSignalChannelMessage(sessionDescription);
+    sendSignalChannelMessage(sessionDescription.toJSON());
   });
 };
 
@@ -115,6 +115,7 @@ var handleICEConnectionStateChange = function() {
 var handleICECandidate = function(event) {
   var candidate = event.candidate;
   if (candidate) {
+    candidate = candidate.toJSON();
     candidate.type = 'candidate';
     console.log('Sending candidate to ' + remote);
     sendSignalChannelMessage(candidate);
@@ -142,7 +143,7 @@ var handleDataChannel = function(event) {
 // You probably want to overwrite this to do something more useful!
 var handleDataChannelMessage = function(event) {
   console.log('Recieved Message: ' + event.data);
-  document.write(event.data);
+  document.write(event.data + '<br />');
 };
 
 // This is called when the WebRTC sending data channel is offically 'open'
@@ -163,7 +164,7 @@ var connect = function() {
   peerConnection.createOffer(function(sessionDescription) {
     console.log('Sending offer to ' + remote);
     peerConnection.setLocalDescription(sessionDescription);
-    sendSignalChannelMessage(sessionDescription);
+    sendSignalChannelMessage(sessionDescription.toJSON());
   });
 };
 
