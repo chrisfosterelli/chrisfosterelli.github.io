@@ -78,6 +78,8 @@ var handleOfferSignal = function(message) {
     console.log('Sending answer to ' + message.sender);
     peerConnection.setLocalDescription(sessionDescription);
     sendSignalChannelMessage(sessionDescription.toJSON());
+  }, function(err) {
+    console.log('Could not create offer', err);
   });
 };
 
@@ -180,6 +182,8 @@ var connect = function() {
     console.log('Sending offer to ' + remote);
     peerConnection.setLocalDescription(sessionDescription);
     sendSignalChannelMessage(sessionDescription.toJSON());
+  }, function(err) {
+    console.log('Could not create offer', err);
   });
 };
 
@@ -265,3 +269,5 @@ Got a question? [Email me](mailto:chris.james.foster@gmail.com).
 __Updated April 5, 2015:__ Added syntax highlighting
 
 __Updated June 17, 2015:__ Now works with Chrome 43, thanks to Dave Compton
+
+__Updated May 7, 2016:__ Now works with Chrome 50, thanks to Akash Paul 

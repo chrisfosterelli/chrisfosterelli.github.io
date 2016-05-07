@@ -63,6 +63,8 @@ var handleOfferSignal = function(message) {
     console.log('Sending answer to ' + message.sender);
     peerConnection.setLocalDescription(sessionDescription);
     sendSignalChannelMessage(sessionDescription.toJSON());
+  }, function(err) {
+    console.log('Could not create offer', err);
   });
 };
 
@@ -165,6 +167,8 @@ var connect = function() {
     console.log('Sending offer to ' + remote);
     peerConnection.setLocalDescription(sessionDescription);
     sendSignalChannelMessage(sessionDescription.toJSON());
+  }, function(err) {
+    console.log('Could not create offer', err);
   });
 };
 
