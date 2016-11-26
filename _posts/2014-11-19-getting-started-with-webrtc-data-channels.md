@@ -224,9 +224,19 @@ id = Math.random().toString().replace('.', '');
 // Configure, connect, and set up Firebase
 sharedKey = prompt("Please enter a shared identifier");
 
-// You probably want to replace the text below with your own Firebase URL
-var firebaseUrl = 'https://amber-fire-244.firebaseio.com/';
-var database = new Firebase(firebaseUrl);
+// Fill this with the config in your Firebase dashboard
+// You'll find it under "Add Firebase to your web app"
+var config = {
+  apiKey: "AIzaSyDnL0UK9gexftWMirQscJW6OEfJlx2_JrA",
+  authDomain: "amber-fire-244.firebaseapp.com",
+  databaseURL: "https://amber-fire-244.firebaseio.com",
+  storageBucket: "",
+  messagingSenderId: "179120851804"
+};
+
+// Setup database and channel events
+var fb = firebase.initializeApp(config);
+var database = fb.database().ref();
 var announceChannel = database.child('announce');
 var signalChannel = database.child('messages').child(id);
 signalChannel.on('child_added', handleSignalChannelMessage);
@@ -271,3 +281,5 @@ __Updated April 5, 2015:__ Added syntax highlighting
 __Updated June 17, 2015:__ Now works with Chrome 43, thanks to Dave Compton
 
 __Updated May 7, 2016:__ Now works with Chrome 50, thanks to Akash Paul 
+
+__Updated November 26, 2016:__ Now works with Firebase 3.6.1, thanks to Rik Vermeer

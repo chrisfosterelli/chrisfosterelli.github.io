@@ -208,10 +208,19 @@ id = Math.random().toString().replace('.', '');
 // that client. This unique identifier can be pretty much anything in practice.
 sharedKey = prompt("Please enter a shared identifier");
 
-// Configure, connect, and set up Firebase
-// You probably want to replace the text below with your own Firebase URL
-var firebaseUrl = 'https://amber-fire-244.firebaseio.com/';
-var database = new Firebase(firebaseUrl);
+// Fill this with the config in your Firebase dashboard
+// You'll find it under "Add Firebase to your web app"
+var config = {
+  apiKey: "AIzaSyDnL0UK9gexftWMirQscJW6OEfJlx2_JrA",
+  authDomain: "amber-fire-244.firebaseapp.com",
+  databaseURL: "https://amber-fire-244.firebaseio.com",
+  storageBucket: "",
+  messagingSenderId: "179120851804"
+};
+
+// Setup database and channel events
+var fb = firebase.initializeApp(config);
+var database = fb.database().ref();
 var announceChannel = database.child('announce');
 var signalChannel = database.child('messages').child(id);
 signalChannel.on('child_added', handleSignalChannelMessage);
