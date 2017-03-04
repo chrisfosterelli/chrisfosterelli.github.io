@@ -6,7 +6,11 @@ title: All talks
 <ul>
   {% for talk in site.data.talks %}
     <li>
-      <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a> &mdash; {{talk.date | date: "%B %d, %Y"}}
+      <a href="{{ talk.url }}" target="_blank">
+        {{ talk.title }}
+      </a>
+      &mdash;
+      {{talk.date | date: "%B %d, %Y"}}
     </li>
   {% endfor %}
 </ul>
