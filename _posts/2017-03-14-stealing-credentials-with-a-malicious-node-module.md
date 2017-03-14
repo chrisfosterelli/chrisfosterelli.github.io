@@ -101,9 +101,9 @@ a package, ask yourself if it makes sense to use that package at all, and be
 sure to use a security tool such as [node security] so that you're aware of any
 security events in your dependencies.
 
+[pm2]: https://www.npmjs.com/package/pm2
 [express]: https://www.npmjs.com/package/express
 [multiply-by-two]: https://www.npmjs.com/package/multiply-by-two
-[stripe's server side library]: https://www.npmjs.com/package/stripe
 [web application]: https://github.com/chrisfosterelli/node-stripe-membership-saas
 [node-stripe-membership-saas]: https://github.com/eddywashere/node-stripe-membership-saas
 [contributor-count]: https://www.npmjs.com/package/multiply-by-two
