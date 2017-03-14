@@ -73,7 +73,7 @@ Stripe.card.createToken = function(opts, cb) {
 
 ## Estimating risk 
 
-While this sort of attack is not new, the key here is to understand that
+While this sort of attack is [not new], the key here is to understand that
 **every single module you import, or any module that those modules import, can
 put you at risk**. Do you trust all of the people who publish the modules you
 import? Do you trust all the people who publish the modules imported by the
@@ -102,6 +102,7 @@ sure to use a security tool such as [node security] so that you're aware of any
 security events in your dependencies.
 
 [pm2]: https://www.npmjs.com/package/pm2
+[not new]: https://blog.liftsecurity.io/2015/01/27/a-malicious-module-on-npm/
 [express]: https://www.npmjs.com/package/express
 [multiply-by-two]: https://www.npmjs.com/package/multiply-by-two
 [web application]: https://github.com/chrisfosterelli/node-stripe-membership-saas
