@@ -1,6 +1,5 @@
 ---
 layout: post
-hidden: true
 permalink: stealing-credentials-with-a-malicious-node-module.html
 title: Stealing credentials with a malicious node module
 ---
