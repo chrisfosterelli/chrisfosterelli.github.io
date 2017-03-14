@@ -83,11 +83,10 @@ It's hard to guage exactly how many people that is, so I created a tool named
 [contributor-count] which gives you an idea of how many people are in the
 contributor tree of a given project.
 
-For [express], the number of trusted people is 137. For [stripe's server side
-library], 192. I've seen some packages as high as 400. If any one of these
-users became malicious, or had their npm account compromised, they could
-perform this sort of attack against you. Download it and see how many users
-your app trusts.
+For [express], the number of trusted people is 51. For [pm2], 129. I've seen
+some packages as high as 400. If any one of these users became malicious, or 
+had their npm account compromised, they could perform this sort of attack
+against you. Download it and see how many users your app trusts.
 
 ## Best practices
 
