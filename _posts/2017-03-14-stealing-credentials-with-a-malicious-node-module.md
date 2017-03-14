@@ -79,7 +79,7 @@ put you at risk**. Do you trust all of the people who publish the modules you
 import? Do you trust all the people who publish the modules imported by the
 modules you import?
 
-It's hard to guage exactly how many people that is, so I created a tool named
+It's hard to gauge exactly how many people that is, so I created a tool named
 [contributor-count] which gives you an idea of how many people are in the
 contributor tree of a given project.
 
