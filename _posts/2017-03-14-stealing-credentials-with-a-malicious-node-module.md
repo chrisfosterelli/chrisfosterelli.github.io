@@ -106,5 +106,5 @@ security events in your dependencies.
 [multiply-by-two]: https://www.npmjs.com/package/multiply-by-two
 [web application]: https://github.com/chrisfosterelli/node-stripe-membership-saas
 [node-stripe-membership-saas]: https://github.com/eddywashere/node-stripe-membership-saas
-[contributor-count]: https://www.npmjs.com/package/multiply-by-two
+[contributor-count]: https://www.npmjs.com/package/contributor-count
 [node security]: https://nodesecurity.io/
