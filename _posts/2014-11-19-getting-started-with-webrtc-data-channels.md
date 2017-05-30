@@ -254,7 +254,9 @@ The best way to show this is with a demo. Open up [this link](file/getting-start
 
 For those of you not able to run the demo, you would have seen something like this:
 
-  ![Picture of Chrome demo](image/getting-started-with-webrtc-data-channels/1.png)
+<img 
+  src="image/getting-started-with-webrtc-data-channels/1.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## The Signalling Server
 

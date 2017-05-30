@@ -17,13 +17,17 @@ title: Creating a private CI with Strider
 
  Now we need to create our droplet that will host the Strider instance. I chose to register a 64 bit [Ubuntu](http://ubuntu.com) 13.04 installation, if only for the easy access to an up-to-date nodejs installation through [Chris Lea's PPA](https://launchpad.net/~chris-lea/+archive/node.js). You can pick any distribution you would like, but you'll have the find the appropriate packages yourself. 
 
- ![Creating a Droplet](image/creating-a-private-ci-with-strider/1.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/1.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## SSH access
 
  When your droplet has been provisioned, Digital Ocean will send you an email with your root password. Now you can SSH into the root account of the droplet, and change the password.
 
- ![Digital Ocean password email](image/creating-a-private-ci-with-strider/2.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/2.png"
+  style="width: 80%; margin-left: 10%;">
 
 {% highlight console %}
 chris@laptop:~# ssh root@198.199.102.245
@@ -184,27 +188,37 @@ root@strider-ci:~#
 
  Sign up for an account on their [signup page](http://mongohq.com/signup), then create your Strider database.
 
- ![Creating a MongoDB database](image/creating-a-private-ci-with-strider/3.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/3.png"
+  style="width: 80%; margin-left: 10%;">
 
  After creating the database, you will be dropped into their database web console. Strider hasn't been configured yet, so there will be nothing there. Make sure to keep track of the MongoDB URI though, it will be used to configure Strider.
 
- ![Finding your MongoDB URI](image/creating-a-private-ci-with-strider/4.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/4.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## Create a Github application
 
  For Github integration, we are going to need to create a Github application under our user account. This application will have [OAuth](http://oauth.net) tokens that will be used to authenticate your Strider instance with Github accounts. To register a Github application, go to the ["Register a new OAuth application"](https://github.com/settings/applications/new) page. I'm going to be using port 4000 for hosting my Strider instance, if you'd like a different port you will need to change your entries appropriately. Be sure to use your IP address as well.
 
- ![Registering a new OAuth Application](image/creating-a-private-ci-with-strider/5.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/5.png"
+  style="width: 80%; margin-left: 10%;">
 
  After registering a new Github OAuth application, you will be taken to that application's control page. The control page will list the Client ID and Client Secret for the application. Be sure to keep track of these, because you will need them when configuring Strider.
 
- ![Finding your OAuth keys](image/creating-a-private-ci-with-strider/6.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/6.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## Getting SMTP credentials
 
  In order for Strider to send our email notifications we will need access to SMTP server credentials. Just like with the MongoDB server, you may host your own if you'd like! In my case, I chose to go with [Mandrill](http://mandrill.com) for SMTP service. They provide a free tier as well, which should be more than sufficient for Strider's traditional needs. You can register an account with Mandrill on their [signup page](http://mandrill.com/signup/). After you have an account with Mandrill, you can navigate to their [SMTP & Credentials](https://mandrillapp.com/settings/index) section. There, you will find your SMTP credentials that you will use to configure Strider.
  
- ![Finding your Mandrill API credentials](image/creating-a-private-ci-with-strider/7.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/7.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## Add an initial administrative user
 
@@ -319,23 +333,31 @@ If everything went right, you should be able to open up your web browser and dir
 
 You will be able to login to your Strider instance with the email and password of the account that you created earlier, and the first page you see will be your dashboard.
 
- ![The Strider Dashboard](image/creating-a-private-ci-with-strider/8.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/8.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## Add a repository to Strider
 
 Unfortunately, the dashboard won't be very interesting yet since we have not configured any repositories to run tests on. The easiest way to add a repository will be to directly connect with your Github account. You should get an OAuth permissions dialogue upon clicking the link.
 
- ![Authorizing your Strider application](image/creating-a-private-ci-with-strider/9.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/9.png"
+  style="width: 80%; margin-left: 10%;">
 
 If you run into issues with connecting your Github account, you have likely made an error in your Github application settings or your Strider environment variables. The hosts need to match exactly. The screenshots in the sections above can help you with what that should look like if you get stuck.
 
 Assuming all is well though, you should see a list of the applications under your account!
 
- ![A list of Github repositories on Strider](image/creating-a-private-ci-with-strider/10.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/10.png"
+  style="width: 80%; margin-left: 10%;">
 
 Go ahead and add one. Strider will automatically set up all the necessary hooks, and immediately run your first test. You'll be able to see the test status on the dashboard, and you'll recieve an email notification when the test completes. For a nodejs application, Strider will automatically run `npm test`. You can configure this to run a separate command, see their docs for more information.
 
- ![A test completion email notification](image/creating-a-private-ci-with-strider/11.png)
+<img 
+  src="image/creating-a-private-ci-with-strider/11.png"
+  style="width: 80%; margin-left: 10%;">
 
 ## Conclusion
 

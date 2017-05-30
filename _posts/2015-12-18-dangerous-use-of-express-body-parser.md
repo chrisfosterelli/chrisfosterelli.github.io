@@ -12,7 +12,7 @@ title: "Dangerous use of express body-parser"
 
 With Javascript XHR requests, it's not possible to make cross-origin requests the same way it is with forms due to the [same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). If you attempt to make an AJAX request to another origin, the browser will disallow the request. HTML forms are not capable of generating anything other than form data, so they can't talk to REST backends. Therefore since only XHR's can send JSON data to an API, an API that accepts only JSON is protected from most CSRF attacks.
 
-<img src="/image/dangerous-use-of-express-body-parser/csrf.png" style="border: 0; margin-left: 0; margin-right: 0; width: 100%;" alt="CSRF Diagram">
+<img src="/image/dangerous-use-of-express-body-parser/csrf.png" style="margin-left: 0; margin-right: 0; width: 100%;" alt="CSRF Diagram">
 
 ## When you do need CSRF protection
 

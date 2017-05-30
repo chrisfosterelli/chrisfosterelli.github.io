@@ -51,7 +51,7 @@ which is executed by the browser as an IEFE.
 
 <img 
   src="/image/stealing-credentials-with-a-malicious-node-module/screenshot.png"
-  style="border: 0; width: 90%; margin-left: 5%;"
+  style="width: 90%; margin-left: 5%;"
   alt="Attack screenshot">
 
 The payload uses a similar wrapping approach to replace the Stripe library's

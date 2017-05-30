@@ -7,7 +7,9 @@ During the month of September 2014 I experimented with a DIY version of soylent.
 
 <!-- Content Breaker -->
 
-![Soylent](image/30-days-of-casual-soylent/soylent_ingredients.jpg)
+<img 
+  src="image/30-days-of-casual-soylent/soylent_ingredients.jpg"
+  style="width: 80%; margin-left: 10%;">
 
 Over the 30 days I experimented with soylent, specifically a DIY version called [Urban Ambrosia](http://diy.soylent.me/recipes/urban-ambrosia-175), I kept a daily journal of my experiences. Since finishing my 30 day trial at the end of September I've continued to use soylent for the rest of the semester. I've also added additional notes below detailing my thoughts after a full four months of regular usage.
 
@@ -245,7 +247,9 @@ Four Months Later
 
 It's now January and I've been regularly consuming my DIY soylent for four months now. I was able to make some even greater improvements by purchasing a cheap coffee grinder. By grinding up the pills, the lecithin, and the almond meal, the texture has been _massively_ improved. This soylent will last for days in the fridge, is _extremely_ cheap per meal, and very mobile. It holds together in the car during the summer heat with ice packs, and in an insulated container can be exposed to the winter temperatures without freezing. As a student looking for a cheap, functional lunch that still has nutritious value, I don't think there is any better alternative to soylent.
 
-![Soylent](image/30-days-of-casual-soylent/mixed_soylent.jpg)
+<img 
+  src="image/30-days-of-casual-soylent/mixed_soylent.jpg"
+  style="width: 80%; margin-left: 10%;">
 
 I'll admit the journey to getting a usable version required me to go through numerous iterations of pretty terrible soylent, but I think it was worth it. I've never had the opportunity to try actual Soylent, as they don't yet ship to Canada, but I'll order as soon as I can for comparison. My only complaint about this DIY version is there is that it _must_ be premixed the night before. Even knowing that, I think this will be something I'll continue with long into the future.
 
