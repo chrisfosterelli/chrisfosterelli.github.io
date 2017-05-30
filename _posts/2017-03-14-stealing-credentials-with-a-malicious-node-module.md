@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: stealing-credentials-with-a-malicious-node-module.html
+permalink: stealing-credentials-with-a-malicious-node-module
 title: Stealing credentials with a malicious node module
 ---
 

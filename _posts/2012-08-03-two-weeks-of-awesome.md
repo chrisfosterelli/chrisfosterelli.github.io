@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: two-weeks-of-awesome.html
+permalink: two-weeks-of-awesome
 title: Two weeks of awesome
 ---
 <p>Hello!</p>

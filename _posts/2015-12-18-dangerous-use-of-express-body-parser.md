@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: dangerous-use-of-express-body-parser.html
+permalink: dangerous-use-of-express-body-parser
 title: "Dangerous use of express body-parser"
 ---
 

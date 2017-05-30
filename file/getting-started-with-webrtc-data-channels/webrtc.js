@@ -2,7 +2,7 @@
 /* WebRTC Demo
  * Allows two clients to connect via WebRTC with Data Channels
  * Uses Firebase as a signalling server
- * http://fosterelli.co/getting-started-with-webrtc-data-channels.html 
+ * http://fosterelli.co/getting-started-with-webrtc-data-channels
  */
 
 /* == Announcement Channel Functions ==

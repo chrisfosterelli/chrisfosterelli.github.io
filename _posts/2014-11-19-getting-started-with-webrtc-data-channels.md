@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: getting-started-with-webrtc-data-channels.html
+permalink: getting-started-with-webrtc-data-channels
 title: Getting Started with WebRTC Data Channels
 ---
 [WebRTC](http://www.webrtc.org/home) data channels are in a strange state where many people are excited about them, but are not sure how to approach them due to their currently volatile nature. The standard has been rapidly changing, leaving many of the examples and resources regarding WebRTC outdated or incomplete. Unfortunately, a developer looking to get started with WebRTC data channels can be having a pretty bad time right now.
@@ -17,7 +17,7 @@ So, in the spirit of supporting development, here is a complete example of _work
 /* WebRTC Demo
  * Allows two clients to connect via WebRTC with Data Channels
  * Uses Firebase as a signalling server
- * http://fosterelli.co/getting-started-with-webrtc-data-channels.html 
+ * http://fosterelli.co/getting-started-with-webrtc-data-channels
  */
 
 /* == Announcement Channel Functions ==
@@ -250,12 +250,12 @@ sendAnnounceChannelMessage();
 
 ## Demo
 
-The best way to show this is with a demo. Open up [this link](file/getting-started-with-webrtc-data-channels/webrtc.html) in two separate tabs (or computers!) in Google Chrome, and enter the same unique shared key into each prompt box. If you have your developer console open, you should see a number of debug messages as the WebRTC handshake is done through the signalling channel, and eventually initiated. The message that is sent by the other peer will be displayed on the page!
+The best way to show this is with a demo. Open up [this link](/file/getting-started-with-webrtc-data-channels/webrtc.html) in two separate tabs (or computers!) in Google Chrome, and enter the same unique shared key into each prompt box. If you have your developer console open, you should see a number of debug messages as the WebRTC handshake is done through the signalling channel, and eventually initiated. The message that is sent by the other peer will be displayed on the page!
 
 For those of you not able to run the demo, you would have seen something like this:
 
 <img 
-  src="image/getting-started-with-webrtc-data-channels/1.png"
+  src="/image/getting-started-with-webrtc-data-channels/1.png"
   style="width: 80%; margin-left: 10%;">
 
 ## The Signalling Server

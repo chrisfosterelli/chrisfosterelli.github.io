@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: discovering-explosive-productivity.html
+permalink: discovering-explosive-productivity
 title: Discovering explosive productivity
 ---
 <p>This friday is now my third week at the <a href="http://kicstart.ca/" target="_blank">Kamloops Innovation Centre</a>, and these last five days I have taken the time to reflect on how much more productive I have been since I've had the opportunity to set up here. Actually, not only productive, but how much more&nbsp;<em>efficient.</em></p>

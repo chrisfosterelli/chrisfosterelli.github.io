@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: modular-rapid-web-application-development.html
+permalink: modular-rapid-web-application-development
 title: Modular rapid web application development
 ---
 <p>While at the KIC, I've been doing contract web development work. The project that I've been developing for has a launch goal of the start of the school year, meaning this up coming September. We are hoping to have a functional, operational verison to display by that time. I hope I can convoy the general size of this project when I say that this is a <em>very </em>signifigant undertaking.</p>

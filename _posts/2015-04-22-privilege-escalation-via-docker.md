@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: privilege-escalation-via-docker.html
+permalink: privilege-escalation-via-docker
 title: Privilege Escalation via Docker
 ---
 
