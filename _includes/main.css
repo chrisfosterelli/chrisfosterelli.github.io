@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans); 
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif); 
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  #divbody {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  ul, ol {
+    padding: 0;
+  }
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+#divbodyholder {
+  width: 100%;
+  max-width: 873px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#divbody {
+  background-color: #fff;
+  padding: 0px 48px 24px 48px;
+  top: 0;
+}
+
+.header { 
+  /*width: 800px;*/
+  width: 91.533%;
+  margin: 0px auto;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.content {
+  border-top: solid 1px #ccc;
+  margin-bottom: 45px;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.description {
+  margin-top: 10px;
+  border-top: solid 1px #666;
+  padding: 10px 0;
+}
+
+h3 {
+  font-size: 20pt;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.clear { 
+  clear: both;
+}
+
+#footer {
+  padding-top: 10px;
+  color: #333333;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: small;
+  border-top: solid 1px #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: #336699;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #336699;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  border-left: solid 12px #e9e9e9;
+  margin:0 0px; 
+  padding: 12px 12px 12px 24px;
+}
+
+blockquote img {
+  margin: 12px 0px;
+}
+
+blockquote iframe {
+  margin: 12px 0px;
+}
+
+pre {
+  font-size: 10pt;
+  font: monospace;
+}
+
+#title {
+  font-family: 'Noto Serif';
+}
+
+.content p code {
+  padding: 1px 4px;
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+
+a.ablack {
+  color: black !important;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+ul, ol {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#post_footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.continue {
+  margin: 0px 12px;
+  text-align: right;
+}
+
+.subtitle {
+  font-size: small;
+  margin: 12px 0px;
+  color: #999;
+  position: relative;
+  top: -10px;
+}
+
+.content {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+#description {
+  font-size: large;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin-top: 42px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#twitter {
+  line-height: 20px;
+  vertical-align: top;
+  text-align: right;
+  font-style: italic;
+  color: #333;
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.content {
+  color: #373737;
+}
+
+.content p {
+  line-height: 22px;
+}
+
+.content h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content a {
+  color: #0086B3;
+}
+
+.content a:hover {
+  text-decoration: underline !important
+}
+
+.content code {
+  margin: 0;
+  overflow: auto;
+  padding: 2px 5px;
+  background-color: #f8f8f8;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+.content pre code {
+  padding: 10px 5px;
+  display: block;
+}
+
+.content ul {
+  list-style-type: disc;
+}
+
+.content img {
+  width: 100%;
+  padding: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

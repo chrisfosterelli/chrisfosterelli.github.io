@@ -1,2 +1,4 @@
 excerpt_separator: "<!-- Content Breaker -->"
 highlighter: rouge
+sass:
+  style: compressed
