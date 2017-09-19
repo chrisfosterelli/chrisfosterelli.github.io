@@ -192,6 +192,7 @@ h4 {
 
 .content p {
   line-height: 22px;
+  text-align: justify;
 }
 
 .content h1 {
