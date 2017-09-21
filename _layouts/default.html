@@ -9,14 +9,13 @@ layout: compress
     <meta name="viewport" content="width=device-width">
     {% if page.image == null %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="https://fosterelli.co/image/social.png">
+    <meta name="og:image" content="https://fosterelli.co/image/social.png">
     {% else %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{page.image}}">
+    <meta name="og:image" content="{{page.image}}">
     {% endif %}
+    <meta name="og:title" content="{{page.title}}">
     <meta name="twitter:site" content="@chrisfosterelli">
-    <meta name="twitter:title" content="{{page.title}}">
-    <meta name="twitter:description" content="Click to read more">
     <title>{{page.title}} - Chris Foster</title>
     {% capture styles %}
     {% include main.css %}
