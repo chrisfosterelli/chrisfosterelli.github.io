@@ -2,6 +2,7 @@
 layout: post
 permalink: executing-gradient-descent-on-the-earth
 title: Executing gradient descent on the earth
+image: https://fosterelli.co/image/executing-gradient-descent-on-the-earth/slopemethod.png
 ---
 
 A common analogy for explaining [gradient descent] goes like the following: a
