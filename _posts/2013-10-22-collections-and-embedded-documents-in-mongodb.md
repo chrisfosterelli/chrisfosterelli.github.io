@@ -14,13 +14,11 @@ A set of rules I have found useful is to ask yourself the following questions:
 2. __Will you most often need the embedded document *without* the parent document?__
 3. __Will you most often need the parent document *without* the embedded document?__
 
-If the answer to two or more of these is _yes_, you likely will want a separate collection. If the answer to only one of these is _yes_, a separate collection should still be considered, but likely not needed. 
+If the answer to two or more of these is _yes_, you likely will want a separate collection. If the answer to only one of these is _yes_, a separate collection should still be considered, but likely not needed. Lastly, keep in mind these are also general theory guidelines and there are other practical considerations to look at, such as the document size limit in MongoDB if you want to embed very many documents into a parent document. Let's look at some examples!
 
-## Examples
+## Example: comments on a blog
 
-#### Comments on a blog
-
-You would like to create a system where people may submit comments on blog posts. The problem is that you are unsure if you should store the `comment` on the `post` document, or create a separate collection named `comments`.
+You would like to create a system where people may submit comments on blog posts. The problem is that you are unsure if you should store the `comment` on the `post` document, or create a separate collection named `comments`. Most posts have a dozen or so comments.
 
 __Does the embedded document relate to one or more other collections?__
 
@@ -36,7 +34,7 @@ In the majority of cases, the answer here is _no_. Most of the time you use this
 
 Overall, comments for a blog is a very good candidate for embedded documents.
 
-#### Students in a class
+## Example: students in a class
 
 You have a school management system, and you would like to enable students to enrol in a particular class. You are unsure if you should store the `student` objects on the `class`, or create a separate collection named `students`.
 
@@ -59,3 +57,5 @@ Overall, students in a class are probably better suited for a separate collectio
 * [MongoDB: Embedded Documents vs Multiple Collections](http://openmymind.net/2012/1/30/MongoDB-Embedded-Documents-vs-Multiple-Collections/)
 * [MongoDB relationships: embed or reference?](http://stackoverflow.com/questions/5373198/mongodb-relationships-embed-or-reference)
 * [Data Modeling Considerations for MongoDB Applications](http://docs.mongodb.org/manual/core/data-modeling/)
+
+__Updated March 28, 2018:__ Added note about technical considerations
