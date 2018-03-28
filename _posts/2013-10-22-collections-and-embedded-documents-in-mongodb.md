@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: collections-and-embedded-documents-in-mongodb
-title: Collections and Embedded Documents in MongoDB
+title: Collections and embedded documents in MongoDB
 ---
 When someone is approaching [MongoDB](http://www.mongodb.org/) from the SQL world, a very common confusion regarding database structure is when to use [embedded documents](http://docs.mongodb.org/manual/core/data-modeling-introduction/#embedded-data), and when to create an entirely new [collection](http://docs.mongodb.org/manual/reference/glossary/#term-collection). This distinction is very important because, although MongoDB is schemaless in nature, whether or not an element of your database is structured as embedded documents or a separate collection will change your code a fair amount. Making this change later on can represent a fair amount of work, so it helps to get this right the first time.
 <!-- Content Breaker -->

@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: privilege-escalation-via-docker
-title: Privilege Escalation via Docker
+title: Privilege escalation via Docker
 ---
 
 **TLDR;** Don't use the 'docker' group
@@ -39,19 +39,19 @@ root
 # 
 {% endhighlight %}
 
-## The Problem
+## The problem
 
 When you've spent any amount of time with Docker, a common complaint is that all of the commands require `sudo` prefixing them. _This is for a good reason_. Many of the design decisions that Docker made inherently give significant power to any user who has access to the daemon.
 
 Anyways, because the additional five characters was too much to type, a 'docker' group was introduced to the package. The Docker daemon will allow access to either the root user or any user in the 'docker' group. This means giving someone 'docker' group access is equivalent to giving them _permanent, non-password-protected root access_.
 
-## The Solution
+## The solution
 
 This is a hard fix for Docker. Because of many of the design decisions they've opted for, it would require significant code rewriting in order to allow non-root users to access the daemon without it being a security risk. My person advice is just simply not use the 'docker' group, ever. At the very least, this should be made more clear on the [documentation](http://docs.docker.com/installation/ubuntulinux/#create-a-docker-group) for the 'docker' group. A newbie might not understand what 'root-equivalent' really means.
 
 In Docker's defense, they are aware that this is a security problem, although they apparently have no intention of actually fixing it. About half way down in their [security document](http://docs.docker.com/articles/security/#docker-daemon-attack-surface), they do explain that the 'docker' group is root-equivalent and why that is dangerous.
 
-## Exploit Details
+## Exploit details
 
 The command you run to perform the privilege escalation fetches my Docker image from the [Docker Hub Registry](https://registry.hub.docker.com/) and runs it. The `-v` parameter that you pass to Docker specifies that you want to create a [volume](http://docs.docker.com/userguide/dockervolumes/) in the Docker instance. The `-i` and `-t` parameters put Docker into 'shell mode' rather than starting a daemon process.
 

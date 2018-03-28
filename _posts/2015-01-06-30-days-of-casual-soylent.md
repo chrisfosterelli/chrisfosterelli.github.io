@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: 30-days-of-casual-soylent
-title: 30 Days of Casual Soylent
+title: Thirty days of casual soylent
 ---
 During the month of September 2014 I experimented with a DIY version of soylent. I know that many people have started using the food substitute as a [sole source of nutrition](http://www.raptitude.com/2014/08/what-happened-during-my-30-days-on-a-liquid-superfood/), but I wanted to focus on using soylent in a more _casual_ manner. Specifically, as a student food on campus is often expensive and homemade lunches are often difficult to carry around, not nutritious, or require reheating. Soylent is none of those things, so for a student I was suspecting it might make an ideal lunch substitute.
 
@@ -242,7 +242,7 @@ Over the 30 days I experimented with soylent, specifically a DIY version called 
 >
 > Had some today! Stomach a little bit upset, but glad to have the energy back. I've noticed that it's common for my stomach to be a little upset if it has been 1 or 2 days since I last had soylent. Nothing like it used to be, but just a little uneasy. I guess pretty similar to what it would feel like drinking 24oz of anything, it makes the stomach feel sloshy. It goes away relatively quickly though! This'll be the last day of my 30-day experiment, and with the tasty version I have settled on I'm happy to announce I'll be definitely continuing forward with it! There's still some room for improvement, but what I have now is definitely pretty great.
 
-Four Months Later
+Four months later
 -----------------
 
 It's now January and I've been regularly consuming my DIY soylent for four months now. I was able to make some even greater improvements by purchasing a cheap coffee grinder. By grinding up the pills, the lecithin, and the almond meal, the texture has been _massively_ improved. This soylent will last for days in the fridge, is _extremely_ cheap per meal, and very mobile. It holds together in the car during the summer heat with ice packs, and in an insulated container can be exposed to the winter temperatures without freezing. As a student looking for a cheap, functional lunch that still has nutritious value, I don't think there is any better alternative to soylent.
