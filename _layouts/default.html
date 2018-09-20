@@ -25,6 +25,12 @@ layout: compress
     <style>
       {{ styles | scssify }}
     </style>
+    {% if page.has_math == true %}
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+      async>
+    </script>
+    {% endif %}
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-43290727-1']);
