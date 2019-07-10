@@ -7,6 +7,7 @@ layout: compress
     <meta charset="utf-8">
     <meta name="author" content="Chris Foster">
     <meta name="viewport" content="width=device-width">
+    <meta name="twitter:site" content="@chrisfosterelli">
     {% if page.image == null %}
     <meta name="twitter:card" content="summary">
     <meta property="og:image" content="https://fosterelli.co/image/social.jpg">
@@ -14,8 +15,21 @@ layout: compress
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="{{page.image}}">
     {% endif %}
-    <meta name="twitter:site" content="@chrisfosterelli">
-    <meta name="twitter:description" content="Click to read more">
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{page.summary}}">
+    <meta name="og:description" content="{{page.summary}}">
+    <meta name="description" content="{{page.summary}}">
+    {% elsif page.excerpt %}
+    <meta 
+      name="twitter:description"
+      content="{{page.excerpt | strip_html | truncate: 197}}...">
+    <meta 
+      name="og:description"
+      content="{{page.excerpt | strip_html | truncate: 197}}...">
+    <meta 
+      name="description"
+      content="{{page.excerpt | strip_html | truncate: 147}}...">
+    {% endif %}
     <meta property="og:title" content="{{page.title}}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

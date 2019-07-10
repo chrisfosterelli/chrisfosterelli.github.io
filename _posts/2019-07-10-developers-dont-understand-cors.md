@@ -2,6 +2,9 @@
 layout: post
 permalink: developers-dont-understand-cors
 title: Developers don't understand CORS
+summary: >
+  The recent Zoom vulnerability is just one of many examples which show us that 
+  many developers do not understand how CORS works
 ---
 
 One of the best things about working in full stack consulting is that I get to 
