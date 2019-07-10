@@ -75,7 +75,7 @@ reasons, put this popup in-app! Google Meet does this well:
 
 I don't want to take away from the CORS focus of this post. Regardless of 
 the user experience side of the argument, running a webserver on localhost is a 
-risky endevour to begin with. It should absolutely not be providing privileged 
+risky endeavour to begin with. It should absolutely not be providing privileged 
 access to functions, such as _installing software_, to every website on the 
 internet. CORS enables you to securely do this -- don't hack around it!
 
