@@ -48,7 +48,10 @@ and access the response, but every other website on the internet can too.
 
 I can't know for sure if failure to understand CORS is why Zoom implemented the 
 feature this way. However, I've talked to a few people and none of us can 
-collectively find any legitimate reason to implement their existing approach. 
+collectively find any legitimate reason to implement their existing approach.
+On reddit, [lerunicorn did find and suggest] that Firefox may block XHRs from 
+secure to non-secure origins which could explain the motivation behind this 
+approach. However, this is not a valid reason to forget to filter origins.
 
 So what would a secure implementation of this feature look like? The webserver 
 listening in on `localhost:19421` should implement a REST API and set a 
@@ -102,3 +105,4 @@ definitely doesn't seem like it's working.
 [exact same vulnerability]: https://bugs.chromium.org/p/project-zero/issues/detail?id=1663
 [generous quantity of examples]: https://stackoverflow.com/search?q=Access-Control-Allow-Origin+node
 [recent Zoom vulnerability]: https://medium.com/bugbountywriteup/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5
+[lerunicorn did find and suggest]: https://www.reddit.com/r/programming/comments/cavblo/zoom_zero_day_4_million_webcams_maybe_an_rce_just/etdw0qn/
