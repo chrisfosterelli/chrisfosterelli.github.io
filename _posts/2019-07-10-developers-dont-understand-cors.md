@@ -46,16 +46,9 @@ _around_ CORS.  By doing this, they opened Zoom up to a big vulnerability
 because not only can the Zoom website trigger operations in the native client 
 and access the response, but every other website on the internet can too.
 
-I can't know for sure if failure to understand CORS is why Zoom implemented the 
-feature this way. However, I've talked to a few people and none of us can 
-collectively find any legitimate reason to implement their existing approach.
-On reddit, [lerunicorn did find and suggest] that Firefox may block XHRs from 
-secure to non-secure origins which could explain the motivation behind this 
-approach. However, this is not a valid reason to forget to filter origins.
-
 So what would a secure implementation of this feature look like? The webserver 
 listening in on `localhost:19421` should implement a REST API and set a 
-`Access-Control-Allow-Origin` header with the value `http://zoom.us`. This will 
+`Access-Control-Allow-Origin` header with the value `https://zoom.us`. This will 
 ensure that only Javascript running on the zoom.us domain can talk to the 
 localhost webserver. Further, to stop pages being able to open Zoom meetings 
 automatically in the background zoom.us should have a [Content Security Policy] 
@@ -82,6 +75,15 @@ the user experience side of the argument, running a webserver on localhost is a
 risky endevour to begin with. It should absolutely not be providing privileged 
 access to functions, such as _installing software_, to every website on the 
 internet. CORS enables you to securely do this -- don't hack around it!
+
+I can't know for sure if failure to understand CORS is why Zoom implemented the 
+feature this way. However, I've talked to a few people and none of us can 
+collectively find any legitimate reason to implement their existing approach.
+On reddit, [lerunicorn did find and suggest] that Firefox may block XHRs from 
+secure to non-secure origins which could explain the motivation behind this 
+approach. However, Firefox supports this when the origin is localhost. Further, 
+native apps can generate a unique self-signed certificate and install it. In 
+any possible case, this is not a valid reason to forget to filter origins.
 
 It's not just Zoom. Anecdotally, lots of developers I've talked with don't 
 understand well how CORS works.  There's also very a [generous quantity of 
