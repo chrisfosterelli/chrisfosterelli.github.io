@@ -83,7 +83,7 @@ On reddit, [lerunicorn did find and suggest] that Firefox may block XHRs from
 secure to non-secure origins which could explain the motivation behind this 
 approach. However, Firefox supports this when the origin is localhost. Further, 
 native apps can generate a unique self-signed certificate and install it.  
-Alternatively they could have just built a [browser extension with native 
+Alternatively, they could have just built a [browser extension with native 
 messaging]. In any possible case, this is not a valid reason to forget to 
 filter origins.
 
