@@ -82,8 +82,10 @@ collectively find any legitimate reason to implement their existing approach.
 On reddit, [lerunicorn did find and suggest] that Firefox may block XHRs from 
 secure to non-secure origins which could explain the motivation behind this 
 approach. However, Firefox supports this when the origin is localhost. Further, 
-native apps can generate a unique self-signed certificate and install it. In 
-any possible case, this is not a valid reason to forget to filter origins.
+native apps can generate a unique self-signed certificate and install it.  
+Alternatively they could have just built a [browser extension with native 
+messaging]. In any possible case, this is not a valid reason to forget to 
+filter origins.
 
 It's not just Zoom. Anecdotally, lots of developers I've talked with don't 
 understand well how CORS works.  There's also very a [generous quantity of 
@@ -108,3 +110,4 @@ definitely doesn't seem like it's working.
 [generous quantity of examples]: https://stackoverflow.com/search?q=Access-Control-Allow-Origin+node
 [recent Zoom vulnerability]: https://medium.com/bugbountywriteup/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5
 [lerunicorn did find and suggest]: https://www.reddit.com/r/programming/comments/cavblo/zoom_zero_day_4_million_webcams_maybe_an_rce_just/etdw0qn/
+[browser extension with native messaging]: https://palant.de/2019/04/11/bogus-security-mechanisms-encrypting-localhost-traffic/
