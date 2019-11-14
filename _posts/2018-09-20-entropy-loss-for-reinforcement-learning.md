@@ -3,7 +3,7 @@ layout: post
 has_math: true
 permalink: entropy-loss-for-reinforcement-learning
 title: Entropy loss for reinforcement learning
-image: https://fosterelli.co/image/entropy-loss-for-reinforcement-learning/social.png
+image: /image/entropy-loss-for-reinforcement-learning/social.png
 ---
 
 Reinforcement learning agents are notoriously unstable to train compared to 

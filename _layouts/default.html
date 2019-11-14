@@ -10,10 +10,10 @@ layout: compress
     <meta name="twitter:site" content="@chrisfosterelli">
     {% if page.image == null %}
     <meta name="twitter:card" content="summary">
-    <meta property="og:image" content="https://fosterelli.co/image/social.jpg">
+    <meta property="og:image" content="{{site.url}}/image/social.jpg">
     {% else %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:image" content="{{page.image}}">
+    <meta property="og:image" content="{{site.url}}{{page.image}}">
     {% endif %}
     {% if page.summary %}
     <meta name="twitter:description" content="{{page.summary}}">
