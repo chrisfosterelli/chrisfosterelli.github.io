@@ -1,5 +1,6 @@
 excerpt_separator: "<!-- Content Breaker -->"
 url: https://fosterelli.co
 highlighter: rouge
+permalink: :title
 sass:
   style: compressed
