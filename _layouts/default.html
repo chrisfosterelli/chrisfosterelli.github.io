@@ -17,14 +17,14 @@ layout: compress
     {% endif %}
     {% if page.summary %}
     <meta name="twitter:description" content="{{page.summary}}">
-    <meta name="og:description" content="{{page.summary}}">
+    <meta property="og:description" content="{{page.summary}}">
     <meta name="description" content="{{page.summary}}">
     {% elsif page.excerpt %}
     <meta 
       name="twitter:description"
       content="{{page.excerpt | strip_html | truncate: 197}}...">
     <meta 
-      name="og:description"
+      property="og:description"
       content="{{page.excerpt | strip_html | truncate: 197}}...">
     <meta 
       name="description"
