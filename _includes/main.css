@@ -150,6 +150,10 @@ li {
   margin: 0;
 }
 
+.title {
+  color: black;
+}
+
 .subtitle {
   font-size: small;
   margin: 12px 0px;
