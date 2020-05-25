@@ -46,9 +46,8 @@ used to encrypt metadata sent with those identifiers (the *associated
 encryption metadata key*).
 
 We derive these with the *HMAC-based Extract-and-Expand Key Derivation
-Function* (HKDF) algorithm. An HKDF is similar to a hash, with some key 
-differences. Notably here, we can generate a fixed output instead of an arbitrary
-number of bytes.
+Function* (HKDF) algorithm. An HKDF is similar to a more general password hash,
+but instead of a fixed output we can generate an arbitrary number of bytes.
 
 Additionally, we can apply a *context* to get multiple different outputs from a
 single input. We have two keys, so we use two different contexts to get them.
