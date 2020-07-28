@@ -166,7 +166,7 @@ messages with less than a 30 minute turnaround.
 I can absolutely imagine that this is not a system for everyone. It involves a
 lot of aggressive structure that won't appeal to some, but productivity is a
 very personal thing and I like to think of rules as [good decisions made in
-batches]. As always I'd love to hear what works for you [on Twitter]! 
+batches]. I'd love to hear what works for you [on Twitter]! 
 
 [Fohkuhs]: http://www.fohkuhs.com/
 [Be Focused]: https://apps.apple.com/ca/app/be-focused-focus-timer/id973134470?mt=12
