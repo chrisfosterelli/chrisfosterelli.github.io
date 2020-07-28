@@ -9,8 +9,8 @@ summary: >
 
 Remote work skills are more critical than ever and I'm feeling pretty lucky
 lately to have been working remotely the past few years. I used to summarize
-remote work as something that's "great for some, but not for everyone". It felt
-it would always lead to one of two states:
+remote work as something that's "great for some, but not for everyone". I felt
+it would always collapse to one of two states:
 
 <!-- Content Breaker -->
 
