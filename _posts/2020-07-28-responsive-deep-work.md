@@ -105,8 +105,8 @@ focus, it's that it is a _break in flow_. It provides no guidance about what we
 do in that break. Instead, with checklists for your breaks, you make your
 breaks _part_ of your flow. 
 
-Unless you're an [academic professor] with tons of time for deep work or a
-student who can study uninterrupted at length there are probably things which
+Unless you're an [academic professor] with tons of time for deep work, or a
+student who can study uninterrupted at length, there are probably things which
 come up during the work day that you need to respond to. This is especially
 true for remote startup teams -- while you've been heads down there's now
 email, instant message, code reviews, and other things to attend to.
@@ -166,7 +166,7 @@ messages with less than a 30 minute turnaround.
 I can absolutely imagine that this is not a system for everyone. It involves a
 lot of aggressive structure that won't appeal to some, but productivity is a
 very personal thing and I like to think of rules as [good decisions made in
-batches]. As always I'd love to hear your thoughts [on Twitter]! 
+batches]. As always I'd love to hear what works for you [on Twitter]! 
 
 [Fohkuhs]: http://www.fohkuhs.com/
 [Be Focused]: https://apps.apple.com/ca/app/be-focused-focus-timer/id973134470?mt=12
