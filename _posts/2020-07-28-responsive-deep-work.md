@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: responsive-deep-work
-title: Responsive Deep Work
+title: Responsive deep work
 summary: >
   This post breaks down how you can create windows of deep focus time while 
   keeping up with all the key notifications you can't miss.
