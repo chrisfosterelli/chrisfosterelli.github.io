@@ -9,11 +9,11 @@ summary: >
 
 I cam across this tweet this morning, followed by the replies of approximately 9.7 thousand people arguing over what the correct answer actually is.
 
+<!-- Content Breaker -->
+
 <blockquote class="twitter-tweet" width="400" align="center"><p lang="en" dir="ltr">how smart are my oomfs <a href="https://t.co/YVxtzhNx4c">pic.twitter.com/YVxtzhNx4c</a></p>&mdash; dev ᴺᴹ ᴬᴳ (@iambuterastann) <a href="https://twitter.com/iambuterastann/status/1327101241390886915?ref_src=twsrc%5Etfw">November 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The complete and total conviction in the replies is notable. I've seen the same thing on Facebook and I often get caught up with the verocity that people argue with each other. The trick is usually the same, but in this specific case users come mostly to two answers: $$1$$ and $$9$$. Which is right? The answer is that they **both are**! Read on for why.
-
-<!-- Content Breaker -->
 
 # What they're seeing
 
