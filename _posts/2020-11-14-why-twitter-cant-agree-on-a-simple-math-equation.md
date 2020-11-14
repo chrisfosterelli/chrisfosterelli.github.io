@@ -3,6 +3,7 @@ layout: post
 has_math: true
 permalink: why-twitter-cant-agree-on-a-simple-math-equation
 title: Why Twitter can't agree on a simple math equation
+image: /image/why-twitter-cant-agree-on-a-simple-math-equation/social.jpeg
 summary: >
   What is 6 / 2(1 + 2)? Thousands of twitter users can't seem to agree -- let's dig into why and what the real answer is.
 ---
