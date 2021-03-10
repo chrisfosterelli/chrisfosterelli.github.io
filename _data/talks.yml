@@ -1,87 +1,109 @@
 - title: Deep Learning for Self Driving Cars
   date: Feb 10, 2021
   url: file/talk/self-driving-cars-202102.pdf
+  audience: TRU Data Science Seminar
 
 - title: Component Driven Development with Storybook
   date: Sep 28, 2019
   url: file/talk/component-driven-development-with-storybook.pdf
+  audience: Startup Slam 2019
 
 - title: Deep Learning for Self Driving Cars
   date: July 31, 2019
   url: file/talk/self-driving-cars.pdf
+  audience: Victoria Machine Learning Meetup
 
 - title: A Short Intro to Reinforcement Learning
   date: May 25, 2019
   url: file/talk/introduction-to-reinforcement-learning-short.pdf
+  audience: Polyglot Unconference 2019
 
 - title: Introduction to Reinforcement Learning
   date: February 27, 2019
   url: file/talk/introduction-to-reinforcement-learning.pdf
+  audience: Victoria Machine Learning Meetup
 
 - title: Master's Thesis Oral Defense
   date: November 23, 2018
   url: file/talk/masters-thesis-oral-defense.pdf
+  audience: Thesis Committee
 
 - title: Decoding Music in the Human Brain
   date: September 30, 2018
   url: file/talk/decoding-music-in-the-human-brain.pdf
+  audience: MMSP 2018
 
 - title: Decoding Semantics Using EEG
   date: September 29, 2017
   url: file/talk/decoding-semantics-using-eeg.pdf
+  audience: UVic CABS Seminar
 
 - title: The Fundamentals of Neural Networks
   date: May 25, 2017
   url: file/talk/fundamentals-of-neural-networks.pdf
+  audience: Victoria Machine Learning Meetup
 
 - title: Deep Learning for Self Driving Cars
   date: April 7, 2017
   url: file/talk/self-driving-cars.pdf
+  audience: UVic Advanced Software Engineering Seminar
 
 - title: Video Super Resolution with Deep Learning
   date: April 5, 2017
   url: file/talk/video-super-resolution.pdf
+  audience: University of Victoria
 
 - title: Recurrent Neural Networks
   date: February 21, 2017
   url: file/talk/recurrent-neural-networks.pdf
+  audience: University of Victoria
 
 - title: Make Neural Nets Great Again
   date: November 27, 2016
   url: file/talk/make-neural-nets-great-again.pdf
+  audience: University of Victoria
 
 - title: SwoopVR&#58; A Web-based Mesh Viewer
   date: April 27, 2016
   url: file/talk/swoopvr.pdf
+  audience: Thompson Rivers University
 
 - title: Mining Stack Overflow
   date: April 11, 2016
   url: file/talk/mining-stack-overflow.pdf
+  audience: Thompson Rivers University
 
 - title: Introduction to Functional Programming
   date: February 24, 2016
   url: file/talk/introduction-to-functional-programming.pdf
+  audience: TRUSU Computer Science Club
 
 - title: Introduction to Automated Testing
   date: November 19, 2015
   url: file/talk/introduction-to-automated-testing.pdf
+  audience: TRUSU Computer Science Club
 
 - title: Tracking Cattle with Infrared Imaging
   date: May 05, 2015
   url: file/talk/tracking-cattle-with-infrared-imaging.pdf
+  audience: Thompson Rivers University
 
 - title: Introduction to Python
   date: Apr 07, 2015
   url: file/talk/introduction-to-python.pdf
+  audience: TRUSU Computer Science Club
 
 - title: Creating Zero-Knowledge SaaS Applications
   date: Oct 28, 2014
   url: file/talk/creating-zero-knowledge-sass-applications.pdf
+  audience: OKDG Meetup
 
 - title: Introduction to Git
   date: Oct 23, 2014
   url: file/talk/introduction-to-git.pdf
+  audience: TRUSU Computer Science Club
 
 - title: Introduction to Cryptography
   date: Sep 23, 2014
   url: file/talk/introduction-to-cryptography.pdf
+  audience: TRUSU Computer Science Club

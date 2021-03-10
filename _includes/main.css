@@ -14,7 +14,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #divbody {
+  #divbody, #talks {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -161,6 +161,41 @@ li {
   position: relative;
   top: -10px;
 }
+
+/* Talks page styles */
+
+#talks {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+  .talk {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  
+  .talk .title {
+    flex-basis: 475px;
+    margin-bottom: 5px;
+    flex-grow: 1;
+  }
+
+    .talk h4 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+
+    .talk span {
+      font-size: 14px;
+    }
+
+  .talk .links {
+    flex-basis: auto;
+    align-self: center;
+    text-align: right;
+  }
 
 /* Post styles */
 

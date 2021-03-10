@@ -3,15 +3,21 @@ layout: default
 title: All talks
 summary: Complete list of talks by Chris Foster
 ---
-<h3>All talks</h3>
-<ul>
+<div id="talks">
+  <h3>All talks</h3>
   {% for talk in site.data.talks %}
-    <li>
-      <a href="{{ talk.url }}" target="_blank">
-        {{ talk.title }}
-      </a>
-      &mdash;
-      {{talk.date | date: "%B %d, %Y"}}
-    </li>
+  <div class="talk">
+    <div class="title">
+      <h4>{{talk.title}}</h4>
+      <span>
+        {{talk.date | date: "%B %d, %Y"}}
+        &mdash;
+        {{talk.audience}}
+      </span>
+    </div>
+    <div class="links">
+      <a href="{{talk.url}}" target="_blank">View slides</a>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>
