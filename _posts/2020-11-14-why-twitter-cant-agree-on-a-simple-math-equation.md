@@ -8,7 +8,7 @@ summary: >
   What is 6 / 2(1 + 2)? Thousands of twitter users can't seem to agree -- let's dig into why and what the real answer is.
 ---
 
-I cam across this tweet this morning, followed by the replies of approximately 9.7 thousand people arguing over what the correct answer actually is.
+I came across this tweet this morning, followed by the replies of approximately 9.7 thousand people arguing over what the correct answer actually is.
 
 <!-- Content Breaker -->
 
